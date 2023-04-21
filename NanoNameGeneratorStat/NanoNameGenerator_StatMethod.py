@@ -83,6 +83,18 @@ for w in words:
         N[ix1, ix2] += 1 
 
 
+# In[41]:
+
+
+print('---------------------------------------------------------------')
+print('Bigram table based on learning from input child names')
+print('---------------------------------------------------------------')
+print('Row = Input character')
+print('Column = Output character')
+print('Output value of array = Likelihood count - Not Normalized')
+print('---------------------------------------------------------------')
+
+
 # In[7]:
 
 
